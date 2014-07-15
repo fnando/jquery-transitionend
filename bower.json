@@ -1,0 +1,15 @@
+{
+  "name": "jquery-transitionend",
+  "version": "0.0.1",
+  "description": "Just a monkeypatch for transitionend CSS animation events",
+  "main": ["jquery-transitionend.js"],
+  "devDependencies": {
+    "jquery": "~2.1.1",
+    "qunit": "~1.14.0"
+  },
+  "ignore": [
+    ".gitignore",
+    ".bowerrc",
+    "test"
+  ]
+}
