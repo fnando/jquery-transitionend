@@ -8,12 +8,8 @@
     // $.fn.on was monkeypatched by jquery-transition-events.js
     var args = slice.call(arguments, 0);
 
-    if (typeof types === 'string') {
-
-      if (types.match(regex)) {
-        types = types.replace(regex, transitionEnd);
-      }
-
+    if (typeof(types) === 'string' && types.match(regex)) {
+      types = types.replace(regex, transitionEnd);
       args[0] = types;
     }
 
