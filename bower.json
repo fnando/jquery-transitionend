@@ -5,7 +5,7 @@
   "main": ["jquery-transitionend.js"],
   "devDependencies": {
     "jquery": "~2.1.1",
-    "qunit": "~1.14.0"
+    "qunit": "~1.18.0"
   },
   "ignore": [
     ".gitignore",

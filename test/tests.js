@@ -6,10 +6,11 @@ function spy() {
   return callback;
 }
 
-QUnit.asyncTest('transitionend', function(assert){
-  expect(1);
-
+QUnit.test('transitionend', function(assert){
   var callback = spy();
+  var done = assert.async();
+
+  expect(1);
 
   $('<div class="to-be-animated">')
     .text('hello')
@@ -23,14 +24,15 @@ QUnit.asyncTest('transitionend', function(assert){
 
   setTimeout(function(){
     assert.ok(callback.called);
-    QUnit.start();
+    done();
   }, 500);
 });
 
-QUnit.asyncTest('events object', function(assert){
-  expect(1);
-
+QUnit.test('events object', function(assert){
   var callback = spy();
+  var done = assert.async();
+
+  expect(1);
 
   $('<div class="to-be-animated">')
     .text('hello')
@@ -44,6 +46,6 @@ QUnit.asyncTest('events object', function(assert){
 
   setTimeout(function(){
     assert.ok(callback.called);
-    QUnit.start();
+    done();
   }, 500);
 });
