@@ -1,6 +1,6 @@
 {
   "name": "jquery-transitionend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Just a monkeypatch for transitionend CSS animation events",
   "main": ["jquery-transitionend.js"],
   "devDependencies": {
