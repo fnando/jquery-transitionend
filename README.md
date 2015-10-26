@@ -16,7 +16,8 @@ $('.my-element').one('webkitTransitionEnd oTransitionEnd msTransitionEnd transit
 });
 ```
 
-Available through Bower: `bower install jquery-transitionend`.
+- Available as a Bower package: `bower install jquery-transitionend`.
+- Also available as NPM package: `npm install jquery-transitionend`.
 
 ## Running tests
 
