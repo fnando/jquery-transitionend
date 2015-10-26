@@ -1,0 +1,19 @@
+{
+  "name": "jquery-transitionend",
+  "version": "0.0.2",
+  "description": "Just a monkeypatch for transitionend CSS animation events",
+  "main": "jquery-transitionend.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fnando/jquery-transitionend.git"
+  },
+  "keywords": [
+    "jquery",
+    "jquery-plugin"
+  ],
+  "author": "Nando Vieira <fnando.vieira@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fnando/jquery-transitionend/issues"
+  }
+}
